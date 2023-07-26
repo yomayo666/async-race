@@ -376,7 +376,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ deleteWinner)\n/* harmony export */ });\nasync function deleteWinner(id){\r\n    const response = await fetch(`http://127.0.0.1:3000/winners/${id}`, {\r\n      method: 'DELETE',\r\n    });\r\n}   \n\n//# sourceURL=webpack://asyncrace/./src/js/winners/deleteWinner.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ deleteWinner)\n/* harmony export */ });\n/* harmony import */ var _winnersPanel_getWinnerIdWinsTime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../winnersPanel/getWinnerIdWinsTime */ \"./src/js/winnersPanel/getWinnerIdWinsTime.js\");\n\r\nasync function deleteWinner(id){\r\n    const response = await fetch(`http://127.0.0.1:3000/winners/${id}`, {\r\n      method: 'DELETE',\r\n    });\r\n    (0,_winnersPanel_getWinnerIdWinsTime__WEBPACK_IMPORTED_MODULE_0__[\"default\"])()\r\n}   \n\n//# sourceURL=webpack://asyncrace/./src/js/winners/deleteWinner.js?");
 
 /***/ }),
 
