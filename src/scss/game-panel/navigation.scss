@@ -1,0 +1,19 @@
+@import '../params/params-button.scss';
+.main, .winner{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #0a4a8283; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 0.25rem 1.7rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 1px; /* Скругляем уголки */
+    cursor: pointer;
+}
+.main:hover, .winner:hover{
+    background-color: $button-hover;
+}
+.main:active, .winner:active{
+    background-color: $button-active;
+}
+.main:disabled, .winner:disabled{
+    background-color: $button-active;
+}

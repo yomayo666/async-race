@@ -1,0 +1,18 @@
+@import '../params/params-button.scss';
+.left-winner, .right-winner{
+    width: 140px;
+    display: inline-block; /* Строчно-блочный элемент */
+    background: $button-background; /* Серый цвет фона */
+    color: $button-color; /* Белый цвет текста */
+    padding: 0.25rem 3rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 1px; /* Скругляем уголки */
+    cursor: pointer;
+}
+.left-winner:hover, .right-winner:hover{
+    background-color: $button-hover;
+}
+.left-winner:active, .right-winner:active{
+    background-color: $button-active;
+
+}

@@ -1,0 +1,21 @@
+@import '../params/params-button.scss';
+.update-div{
+    margin-top: 2px;
+}
+.update-color{
+    height: 21.25px;
+}
+.update{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: $button-background; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 0.2rem 0.5rem; /* Поля вокруг текста */
+    border-radius: 3px; /* Скругляем уголки */
+    cursor: pointer;
+}
+.update:hover{
+    background-color: $button-hover;
+}
+.update:active{
+    background-color: $button-active;
+}

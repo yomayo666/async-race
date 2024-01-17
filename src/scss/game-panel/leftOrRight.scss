@@ -1,0 +1,26 @@
+@import '../params/params-button.scss';
+.left-or-right{
+    margin-top: 5px;
+    width: 285px;
+    display: flex;
+}
+.left-or-right > *{
+    flex: 1;
+    margin-left: 3px;
+    text-align: center;
+    background: $button-background; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    //padding: 0.2rem 0.77rem; /* Поля вокруг текста */
+    border-radius: 3px; /* Скругляем уголки */
+    cursor: pointer;
+}/*  */
+.left:hover, .right:hover{
+    background-color: $button-hover;
+}
+
+.left:active, .right:active{
+    background-color: $button-active;
+}
+.left:disabled, .right:disabled{
+    background-color: $button-active;
+}

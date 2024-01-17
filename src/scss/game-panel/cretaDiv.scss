@@ -1,0 +1,24 @@
+@import '../params/params-button.scss';
+.creta-div{
+    margin-top: 5px;
+}
+.create-color{
+    height: 21.25px;
+}
+.create{
+    display: inline-block; /* Строчно-блочный элемент */
+    background: $button-background; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 0.2rem 0.5rem; /* Поля вокруг текста */
+    border-radius: 3px; /* Скругляем уголки */
+    cursor: pointer;
+}
+.create:hover{
+    background-color: $button-hover;
+}
+.create:disabled{
+    background-color: $button-active;
+}
+.create:active{
+    background-color: $button-active;
+}

@@ -1,0 +1,60 @@
+@import '../params/params-button.scss';
+.game-content{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.232);
+}
+.game-content button{
+    margin: 0;
+    padding: 0;
+    margin-left: 2px;
+    text-align: center;
+    background: $button-background; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 0rem 1%; /* Поля вокруг текста */
+    border-radius: 3px; /* Скругляем уголки */
+    cursor: pointer;
+}
+.game-content button:hover{
+    background-color: $button-hover;
+}
+.game-content button:active{
+    background-color: $button-active;
+}
+.game-content button:disabled{
+    background-color: $button-active;
+}
+.tractor-svg{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 25px;
+    height: 30px;
+    
+}
+.game-content .name-car-in-game{
+    margin-left: 10px;
+}
+.trakt-container{
+    position: relative;
+}
+.game-content .flag{
+    height: 20px;
+    width: 20px;
+    position: absolute;  
+    left: 80%;
+    border-left: 2px solid black;
+    margin-top: 19px;
+    padding-bottom: 20px;
+
+}
+hr{
+    margin: 0;
+    padding: 0;
+}
+.game-top{
+    height: 25px;
+}
+.game-bot{
+    height: 25px;
+}

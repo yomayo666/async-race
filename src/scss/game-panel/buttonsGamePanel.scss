@@ -1,0 +1,21 @@
+@import '../params/params-button.scss';
+.buttons-game-panel{
+    margin-top: 5px;
+}
+.buttons-game-panel > *{
+    text-align: center;
+    background: $button-background; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 0.2rem 0.77rem; /* Поля вокруг текста */
+    border-radius: 3px; /* Скругляем уголки */
+    cursor: pointer;
+}
+.race:hover, .reset:hover, .generate:hover{
+    background-color: $button-hover;
+}
+.race:disabled, .reset:disabled, .generate:disabled{
+    background-color: $button-active;
+}
+.race:active, .reset:active, .generate:active{
+    background-color: $button-active;
+}
